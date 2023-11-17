@@ -1,7 +1,7 @@
 package behavioral.Strategy;
 
 public class Operacao {
-	double pagar(Estrategia estrategia) {
+	double pagamento(Estrategia estrategia) {
 		return estrategia.pagamento();
 	}
 }
